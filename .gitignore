@@ -6,3 +6,4 @@ _*
 *.fasta
 *.out
 *.better_gz
+!_*.sh
