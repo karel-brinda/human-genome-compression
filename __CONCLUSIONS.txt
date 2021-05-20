@@ -1,0 +1,17 @@
+* How many distinct k-mers are in human genome?
+
+   $ cat distinct_kmers.txt
+   2497988809
+
+* What's the lower bound on the genome file (MB)?
+
+   $ p3 2497988809/4/10**6
+   624.49720225
+
+   => 624 MB
+
+* What's achieved by common compressors?
+
+	original downloaded gz - 893 MB
+	improved gz - 781 MB
+	xz - 641 MB
