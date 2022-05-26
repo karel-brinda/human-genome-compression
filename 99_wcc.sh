@@ -4,4 +4,4 @@ set -e
 set -o pipefail
 set -u
 
-wc -c *.fasta* > wcc.txt
+wc -c *.fa* > wcc.txt

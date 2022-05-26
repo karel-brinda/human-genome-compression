@@ -4,4 +4,4 @@ set -e
 set -o pipefail
 set -u
 
-diff _chm13.draft_v1.1.fasta chm13.draft_v1.1.fasta
+diff _chm13v2.0.fa chm13v2.0.fa

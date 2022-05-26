@@ -4,5 +4,5 @@ set -e
 set -o pipefail
 set -u
 
-seqtk seq -U chm13.draft_v1.1.fasta.gz \
-	> chm13.draft_v1.1.fasta
+seqtk seq -U chm13v2.0.fa.gz \
+	> chm13v2.0.fa

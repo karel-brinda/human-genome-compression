@@ -4,7 +4,7 @@ set -e
 set -o pipefail
 set -u
 
-seqtk seq -U chm13.draft_v1.1.fasta.gz \
+seqtk seq -U chm13v2.0.fa.gz \
 	| pv \
 	| gzip -9 \
-	> chm13.draft_v1.1.fasta.better_gz
+	> chm13v2.0.fa.better_gz

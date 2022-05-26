@@ -1,5 +1,5 @@
- 3054832222 chm13.draft_v1.1.fasta
- 780600720 chm13.draft_v1.1.fasta.better_gz
- 892637258 chm13.draft_v1.1.fasta.gz
- 630407952 chm13.draft_v1.1.fasta.xz
- 5358478152 total
+ 3117293566 chm13v2.0.fa
+ 788158109 chm13v2.0.fa.better_gz
+ 959988815 chm13v2.0.fa.gz
+ 633880656 chm13v2.0.fa.xz
+ 5499321146 total
