@@ -5,5 +5,5 @@ set -o pipefail
 set -u
 
 seqtk seq -U chm13.draft_v1.1.fasta.gz \
-	| xz -T1 -9 -v \
+	| xz -v -T1 -e --lzma2=preset=9,dict=512MiB \
 	> chm13.draft_v1.1.fasta.xz
